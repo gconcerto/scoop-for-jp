@@ -1,0 +1,29 @@
+{
+    "homepage": "https://mix-mplus-ipa.osdn.jp/migu/",
+    "description": "Japanese monospace font for programming: M+ + IPA gothic",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://mix-mplus-ipa.osdn.jp/migmix/IPA_Font_License_Agreement_v1.0.txt"
+    },
+    "depends": [
+        "jp-util-font"
+    ],
+
+    "version": "20200307",
+    "url": "https://osdn.net/projects/mix-mplus-ipa/downloads/72511/migu-1m-20200307.zip",
+    "hash": "a4770fca22410668d2747d7898ed4d7ef5d92330162ee428a6efd5cf247d9504",
+    "checkver": {
+        url: "https://mix-mplus-ipa.osdn.jp/migu/",
+        re: "migu-1m-(?<d>[\\d](8)).zip (約4MB) のダウンロード"
+    },
+    "autoupdate": {
+        "url": "https://osdn.net/projects/mix-mplus-ipa/downloads/72511/migu-1m-$matchD.zip"
+    },
+
+    "installer": {
+        "script": "jp-util-font $true $dir '*.ttf'"
+    },
+    "uninstaller": {
+        "script": "jp-util-font $false $dir '*.ttf'"
+    }
+}
