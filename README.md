@@ -30,7 +30,7 @@
 
 Bucket有効化
 ```
-scoop bucket add jp https://github.com/rkbk60/scoop-for-jp
+scoop bucket add jp https://github.com/gconcerto/scoop-for-myself
 ```
 
 アプリの追加
