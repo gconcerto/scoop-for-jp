@@ -10,14 +10,14 @@
     ],
 
     "version": "20200307",
-    "url": "https://osdn.net/projects/mix-mplus-ipa/downloads/72511/migu-1m-20200307.zip",
+    "url": "https://plug-mirror.rcac.purdue.edu/osdn/mix-mplus-ipa/72511/migu-1m-20200307.zipp",
     "hash": "",
     "checkver": {
         url: "https://mix-mplus-ipa.osdn.jp/migu/",
         re: "migu-1m-(?<d>[\\d](8)).zip (約4MB) のダウンロード"
     },
     "autoupdate": {
-        "url": "https://osdn.net/projects/mix-mplus-ipa/downloads/72511/migu-1m-$matchD.zip"
+        "url": "https://plug-mirror.rcac.purdue.edu/osdn/mix-mplus-ipa/72511/migu-1m-$matchD.zip"
     },
 
     "installer": {
