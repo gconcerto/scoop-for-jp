@@ -11,7 +11,7 @@
 
     "version": "20200307",
     "url": "https://osdn.net/projects/mix-mplus-ipa/downloads/72511/migu-1m-20200307.zip",
-    "hash": "7d0dd1cd3f30c5d033b759e3d811288893d687596c0b62a6c06f5bb14c9c6bc2",
+    "hash": "1ac07dcf782a78c68c671843bc673107873130f9e3c7afb997d2da0e711554da",
     "checkver": {
         url: "https://mix-mplus-ipa.osdn.jp/migu/",
         re: "migu-1m-(?<d>[\\d](8)).zip (約4MB) のダウンロード"
