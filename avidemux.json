@@ -5,8 +5,8 @@
     "version": "210119_47",
     "architecture": {
         "64bit": {
-            "url": "https://www.avidemux.org/nightly/win64/avidemux_r210129_win64Qt5_47.zip",
-            "hash": "98DCEF16172F192596CCB3C92BF9C3D2091CBFE5EB9918FA9077D63F804AF18B",
+            "url": "http://www.avidemux.org/nightly/win64/avidemux_r210306_win64Qt5_56.zip",
+            "hash": "91595B75D630B5856592613722839879C2CCEE9C2C0BEA9997856907DA3F45B8",
             "extract_dir": "avidemux_64"
         }
     },
