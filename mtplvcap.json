@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/puhitaku/mtplvcap/releases/download/v1.4.2/mtplvcap_windows_amd64.zip",
-            "hash": "A19F1152C92ECD0F40C075805720D994CE6F53BA314E8B1913F407204760FD11"
+            "hash": "ddd3ac34c561a4cf400d7f37ab4acc8cbe089fa93da3690414732aa8dfca056f"
         }
     },
     "checkver": {
