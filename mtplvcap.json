@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/puhitaku/mtplvcap",
+    "description": "Nikon to USB Webcam.",
+
+    "version": "1.4.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/puhitaku/mtplvcap/releases/download/v1.4.2/mtplvcap_windows_amd64.zip",
+            "hash": "A19F1152C92ECD0F40C075805720D994CE6F53BA314E8B1913F407204760FD11"
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/puhitaku/mtplvcap"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/puhitaku/mtplvcap/releases/download/v$version/mtplvcap_windows_amd64.zip"
+            }
+        }
+    }
+}
