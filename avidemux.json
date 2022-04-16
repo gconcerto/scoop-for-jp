@@ -2,11 +2,10 @@
     "homepage": "http://avidemux.sourceforge.net/",
     "description": "Avidemux is a free video editor designed for simple cutting, filtering and encoding tasks.",
 
-    "version": "210306_56",
+    "version": "220330_131",
     "architecture": {
         "64bit": {
-            "url": "http://www.avidemux.org/nightly/win64/avidemux_r210306_win64Qt5_56.zip",
-            "hash": "91595B75D630B5856592613722839879C2CCEE9C2C0BEA9997856907DA3F45B8",
+            "url": "http://www.avidemux.org/nightly/win64/avidemux_r220330_win64Qt5_131.zip",
             "extract_dir": "avidemux_64"
         }
     },
