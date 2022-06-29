@@ -12,8 +12,7 @@
     "checkver": {
         "url": "https://www.avidemux.org/nightly/win64",
         "re": "avidemux_r(?<r>[\\d]+)_win64Qt5_(?<n>[\\d]+)\\.zip",
-        "replace": "${r}.${n}",
-        "reverse": true
+        "replace": "${r}.${n}"
     },
     "autoupdate": {
         "architecture": {
